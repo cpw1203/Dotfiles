@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
-#
-# Best bashrc in history
-#
-# Author: Dave Eddy <dave@daveeddy.com>
-# Date: Sometime in 2011
 # License: MIT
 
 # If not running interactively, don't do anything
@@ -11,6 +6,7 @@
 
 
 # Set environment
+export COLORTERM=truecolor
 export EDITOR='vim'
 export GREP_COLOR='1;36'
 export HISTCONTROL='ignoredups'
